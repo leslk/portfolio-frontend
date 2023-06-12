@@ -39,7 +39,7 @@
                 {
                     name: "PORTFOLIO",
                     src: portfolio,
-                    link: "leslie-elkattoussi.com"
+                    link: "https://www.leslie-elkattoussi.com"
 
                 }
     ]

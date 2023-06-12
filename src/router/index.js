@@ -21,7 +21,7 @@ const router = createRouter({
             }
         },
         {
-            path : "/:pathMatch(.*)",
+		path : '/:pathMatch(.*)*',
             redirect:  'notfound'
         }
     ],
