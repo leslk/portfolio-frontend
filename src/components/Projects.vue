@@ -14,7 +14,18 @@
                 :slideImageInside="true"
                 :breakpoints="{ 998: { visibleSlides: 1, slideMultiple: 1 } }"
             >
-                <vueper-slide v-for="projectsItem in projects" :key="projectsItem.name" :image="projectsItem.src" :content="projectsItem.content" :link="projectsItem.link" target="_blank" @mouseover="hoverItem = projectsItem.name;" @mouseleave="hoverItem = null;"/>
+                <vueper-slide 
+                    v-for="projectsItem in projects" 
+                    :key="projectsItem.name" 
+                    :image="projectsItem.src" 
+                    :content="projectsItem.content" 
+                    :link="projectsItem.link" 
+                    :alt="projectsItem.alt"
+                    :aria-label="ariaLabel"
+                    target="_blank" 
+                    @mouseover="hoverItem = projectsItem.name;" 
+                    @mouseleave="hoverItem = null;"
+                />
             </vueper-slides>
         </div>
     </section>
@@ -34,12 +45,16 @@
                 {
                     name: "BOMBERS",
                     src: Bombers,
-                    link: "https://bombers-original-partenariats.com/home"
+                    link: "https://bombers-original-partenariats.com/home",
+                    alt: "screenshot site bombers-original-partenariats.com",
+                    ariaLabel: "site bombers original partenariats"
                 },
                 {
                     name: "PORTFOLIO",
                     src: portfolio,
-                    link: "https://www.leslie-elkattoussi.com"
+                    link: "https://www.leslie-elkattoussi.com",
+                    alt: "screenshot portfolio leslie-elkattoussi.com",
+                    ariaLabel: "site portfolio leslie el kattoussi"
 
                 }
     ]

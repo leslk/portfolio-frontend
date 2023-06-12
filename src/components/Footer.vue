@@ -8,10 +8,10 @@
                 :lg="8" 
             >
                 <div class="social-network-container">
-                    <a href="https://github.com/leslk" target="_blank">
+                    <a aria-label="page github leslie el kattoussi" href="https://github.com/leslk" target="_blank">
                         <font-awesome-icon icon="fa-brands fa-square-github" size="2x" class="skill-icon"/>
                     </a>
-                    <a href="https://fr.linkedin.com/in/leslie-el-kattoussi-9851a31bb" target="_blank">
+                    <a aria-label="profil linkedin leslie el kattoussi" href="https://fr.linkedin.com/in/leslie-el-kattoussi-9851a31bb" target="_blank">
                         <font-awesome-icon icon="fa-brands fa-linkedin" size="2x" class="skill-icon"/>
                     </a>
                 </div>
@@ -25,7 +25,7 @@
                 <div class="contacts-container">
                     <div class="contact-container">
                         <font-awesome-icon icon="fa-solid fa-at" size="1x" class="skill-icon"/>
-                        <a href="mailto:Leslieelkattoussi@gmail.com"><p>Leslieelkattoussi@gmail.com</p></a>
+                        <a aria-label="adresse mail leslie el kattoussi" href="mailto:Leslieelkattoussi@gmail.com"><p>Leslieelkattoussi@gmail.com</p></a>
                     </div>
                     <div class="contact-container">
                         <font-awesome-icon icon="fa-solid fa-phone" size="1x" class="skill-icon"/>

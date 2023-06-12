@@ -1,10 +1,10 @@
 <template>
     <div class="header-container">
         <header :class="showNavbar">
-            <RouterLink to="/">
+            <RouterLink to="/" aria-label="portfolio leslie el kattoussi accueil">
             <img
                 :src="logo"
-                alt="Element Plus"
+                alt="Logo Leslie el kattoussi"
                 class="header-logo"
             />
             </RouterLink>
@@ -64,7 +64,6 @@
 
     defineEmits(['goToSection']);
     const route = useRoute();
-    console.log(route.path);
 
     const drawer = ref(false);
     const menuItems = [
@@ -159,7 +158,7 @@
     }
 
     .header-logo {
-        width: 80px;
+        width: 60px;
     }
 
     .bg-and-header-fadein{
@@ -189,12 +188,12 @@
     }
     .header {
         z-index: 2;
-        padding-right: 50px;
-        padding-left: 50px;
+        padding-right: 2rem;
+        padding-left: 2rem;
         position: fixed;
         width: 100%;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -230,12 +229,20 @@
     }
 
     @media only screen and (min-width: 768px) {
+        .header-logo {
+            width: 70px;
+        }
+
         .drawer.el-drawer {
             width: 35% !important;
         }
     }
 
     @media only screen and (min-width: 998px) {
+        .header {
+            padding-top: 1rem;
+            padding-bottom: 1rem;
+        }
         .toggle, .header-nav__tab {
             display: none;
         }
