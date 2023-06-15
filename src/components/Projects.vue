@@ -21,7 +21,7 @@
                     :content="projectsItem.content" 
                     :link="projectsItem.link" 
                     :alt="projectsItem.alt"
-                    :aria-label="ariaLabel"
+                    :aria-label="projectsItem.ariaLabel"
                     target="_blank" 
                     @mouseover="hoverItem = projectsItem.name;" 
                     @mouseleave="hoverItem = null;"
