@@ -4,8 +4,8 @@
         <div class="profil-text">
             <p class="profil-sentences">Je suis Leslie et je suis développeuse Web junior.</p>
             <p class="profil-sentences">En 2022, j'ai entamé une reconversion professionnelle via une formation Bac +2 de développeur Web qui m'a permis d'acquérir de nombreuses compétences en réalisant de nombreux projets dans différents langages de programmation.</p>
-            <p class="profil-sentences">Etant consciente que ce domaine est vaste et en perpetuelle évolution, je souhaite poursuivre ma formation via le cursus Bachelor Développeur web proposé par MyDigitalSchool. Je recherche donc d'un poste en alternance en région Caennaise et Parisienne.</p>
-            <p class="profil-sentences profil-sentences__last">Pour plus d'information sur mon profil, vous pouvez télécharger mon CV ci-dessous</p>
+            <p class="profil-sentences">Etant consciente que ce domaine est vaste et en perpetuelle évolution, je souhaite poursuivre l'apprentissage de ce métier passionnant en entreprise. Je recherche donc un poste de développeur web en région Caennaise et Parisienne.</p>
+            <p class="profil-sentences profil-sentences__last">Pour plus d'informations sur mon profil, vous pouvez télécharger mon CV ci-dessous</p>
         </div>
         <div class="button-container">
             <a :href="pdfUrl" target="_blank">
@@ -19,7 +19,7 @@
     import Button from "./button/Button.vue";
     import Title from "./title/Title.vue";
 
-    const pdfUrl = `${import.meta.env.VITE_APP_URL}/leslie_el_kattoussi.pdf`;
+    const pdfUrl = `${import.meta.env.VITE_APP_URL}/leslie_el_kattoussi_cv.pdf`;
 </script>
 
 <style lang="scss" scoped>
