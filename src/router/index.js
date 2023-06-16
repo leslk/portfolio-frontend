@@ -9,7 +9,7 @@ const router = createRouter({
             name: 'home',
             component: Home,
             meta: {
-              title : "Leslie EL KATTOUSSI : Accueil",
+              title : "Leslie EL KATTOUSSI - Portfolio développeuse Web",
               description: "Je suis Leslie EL KATTOUSSI, développeuse web backend & frontend passionné avec une expérience dans la création de sites web. Découvrez mon parcours, mes compétences et mes projets."
 
             }
@@ -19,7 +19,7 @@ const router = createRouter({
             path : "/notfound",
             component : () => import("../views/NotFound.vue"),
             meta: {
-                title : "Leslie EL KATTOUSSI : Page introuvable"
+                title : "Leslie EL KATTOUSSI - Page introuvable"
             }
         },
         {
