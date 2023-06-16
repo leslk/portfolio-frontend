@@ -9,7 +9,9 @@ const router = createRouter({
             name: 'home',
             component: Home,
             meta: {
-              title : "Leslie EL KATTOUSSI : Accueil"
+              title : "Leslie EL KATTOUSSI : Accueil",
+              description: "Je suis Leslie EL KATTOUSSI, développeuse web backend & frontend passionné avec une expérience dans la création de sites web. Découvrez mon parcours, mes compétences et mes projets."
+
             }
         },
         {
