@@ -25,17 +25,17 @@
         {
             icon: 'fas-solid fa-gear',
             name: "Backend",
-            tools: ["Nodejs", "Express", "MongoDB", "Nodemailer", "Firebase"],
+            tools: ["Nodejs", "Express", "MongoDB", "SQL", "Nodemailer", "Firebase"],
         },
         {
             icon: 'fas-solid fa-code',
             name: "Frontend",
-            tools: ["HTML", "CSS", "Javascript","Dart", "Vuejs", "Reactjs", "Flutter", "Bootstrap", "Typescript"],
+            tools: ["HTML", "CSS", "Javascript","Dart", "Vuejs", "Reactjs", "Flutter", "Bootstrap", "Typescript", "Tailwind", "Bootstrap"],
         },
         {
             icon: 'fas-solid fa-code-fork',
             name: "Autres",
-            tools: ["Git", "Github", "Azure", "Trello"],
+            tools: ["Git", "Github", "Azure", "Trello", "Merise", "UML"],
         }
     ]
 

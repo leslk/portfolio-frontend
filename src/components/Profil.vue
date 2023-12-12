@@ -4,7 +4,7 @@
         <div class="profil-text">
             <p class="profil-sentences">Je suis Leslie et je suis développeuse Web junior.</p>
             <p class="profil-sentences">En 2022, j'ai entamé une reconversion professionnelle via une formation Bac +2 de développeur Web qui m'a permis d'acquérir de nombreuses compétences en réalisant de nombreux projets dans différents langages de programmation.</p>
-            <p class="profil-sentences">Etant consciente que ce domaine est vaste et en perpetuelle évolution, je souhaite poursuivre l'apprentissage de ce métier passionnant en entreprise. Je recherche donc un poste de développeur web en région Caennaise et Parisienne.</p>
+            <p class="profil-sentences">Etant consciente que ce domaine est vaste et en perpetuelle évolution, je poursuis mon apprentissage en préparant un Bachelor concepteur développeur d'applications en alternance auprès de MyDigitalSchool et de l'entreprise parisienne Ownest.</p>
             <p class="profil-sentences profil-sentences__last">Pour plus d'informations sur mon profil, vous pouvez télécharger mon CV ci-dessous</p>
         </div>
         <div class="button-container">
