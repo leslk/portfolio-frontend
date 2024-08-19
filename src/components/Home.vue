@@ -10,7 +10,7 @@
 <script setup>
     import { onMounted, ref } from "vue";
 
-    const sentence =  "Bonjour,\nJe suis Leslie EL KATTOUSSI\nDéveloppeuse Web Junior";
+    const sentence =  "Bonjour,\nJe suis Leslie EL KATTOUSSI\nDéveloppeuse conceptrice d'applications";
     const presentationInfo = ref(null);
     const presentationInfoStyle = ref(null);
     const typeValue = ref("");
