@@ -2,9 +2,9 @@
     <section id="profil" class="profil">
         <Title title="A PROPOS"/>
         <div class="profil-text">
-            <p class="profil-sentences">Je suis Leslie et je suis développeuse Web junior.</p>
-            <p class="profil-sentences">En 2022, j'ai entamé une reconversion professionnelle via une formation Bac +2 de développeur Web qui m'a permis d'acquérir de nombreuses compétences en réalisant de nombreux projets dans différents langages de programmation.</p>
-            <p class="profil-sentences">Etant consciente que ce domaine est vaste et en perpetuelle évolution, je poursuis mon apprentissage en préparant un Bachelor concepteur développeur d'applications en alternance auprès de MyDigitalSchool et de l'entreprise parisienne Ownest.</p>
+            <p class="profil-sentences">Je suis Leslie et je suis développeuse conceptrice d'applications.</p>
+            <p class="profil-sentences">En 2022, j'ai entamé une reconversion professionnelle via une formation Bac +2 de développeur Web qui m'a permis d'acquérir de nombreuses compétences en réalisant de nombreux projets dans différents langages de programmation. J'ai ensuite poursuivi mon apprentissage en intégrant le cursus Bachelor développeur concepteur d'applications de My digital school.</p>
+            <p class="profil-sentences">Ayant obtenu mon diplôme en Juillet 2024, je recherche activement un poste de développeuse conceptrice d'applications.</p>
             <p class="profil-sentences profil-sentences__last">Pour plus d'informations sur mon profil, vous pouvez télécharger mon CV ci-dessous</p>
         </div>
         <div class="button-container">
