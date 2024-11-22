@@ -23,7 +23,7 @@
             setTimeout(typeEffect, Math.floor(Math.random() * (100 - 6) + 6));
         } 
         if (charIndex === sentence.length) {
-            presentationInfo.value = "20 ans, CAEN (14000)";
+            presentationInfo.value = "30 ans, CAEN (14000)";
             presentationInfoStyle.value = "home-presentation-info";
         }
 
